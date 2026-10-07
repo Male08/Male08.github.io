@@ -70,6 +70,31 @@ nav img {
     text-align: center;
     padding: 15px;
 }
+.ubi {
+    background-color:rgb(77, 7, 7);
+    color: white;
+    margin-top: 10px;
+    text-align: center;
+    padding: 15px; 
+    margin-bottom: 3rem;
+    font-size: 20px;
+}
+.frufru {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); 
+    gap: 1.5rem;  
+}
+.frufru p {
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    height: 100%;
+}
+.uuubi{
+    font-size: 40px;
+}
 .frr {
     text-align: center;
 }
@@ -143,6 +168,20 @@ footer {
     justify-content: center;
     align-items: center;
     gap: 20px;             /* espacio entre cada ítem */
+}
+.btn-pdf {
+  display: inline-block;
+  background-color: #e74c3c;
+  color: #ffffff;
+  padding: 12px 24px;
+  text-decoration: none;
+  font-weight: bold;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.btn-pdf:hover {
+  background-color: #c0392b;
 }
 
 
@@ -239,14 +278,25 @@ footer {
     h1, h2 {
         font-size: 1.2rem;
     }
+    .frufru {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr); 
+        gap: 1.5rem;
+        font-size: 10px; 
+        width:fit-content; 
+    } 
+    .iframe {
+        width: fit-content;
+        height: fit-content;
+    } 
 
     footer {
         grid-template-columns: 1fr; /* footer en una sola columna */
         text-align: left;
         padding-left: 40px;
     }
-    .tituloadmin {
-        font-size: 60px;
+    .tituloadmin, .elnombredeestaporqueria {
+        font-size: 40px;
     }
     .contenedorinfo {
         border-radius: 30px;
